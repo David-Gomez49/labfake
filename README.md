@@ -1,6 +1,15 @@
 [![CI/CD Pipeline](https://github.com/diegobotia/labfake/actions/workflows/build.yml/badge.svg)](https://github.com/diegobotia/labfake/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=bugs)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=coverage)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=diegobotia_labfake&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=diegobotia_labfake)
 
-Implementation of a Simple App with the next operations:
+* Implementation of a Simple App with the next operations:
 
 * Get random nations
 * Get random currencies
