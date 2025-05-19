@@ -1,12 +1,13 @@
 package com.udea.labfaker;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.javafaker.Faker;
+import java.util.Locale;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Locale;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.javafaker.Faker;
 
 @RestController
 public class DataController {
@@ -37,7 +38,7 @@ public class DataController {
     }
     return nations;
 }
-
+//TEST ACTIONS PUSH
 
     @GetMapping("/currencies")
     public JsonNode getRandomCurrencies(){
@@ -54,6 +55,7 @@ public class DataController {
         return  currencies;
     }
 
+    
     @GetMapping("/aviation")
     public JsonNode getRandomAviation(){
         var objectMapper = new ObjectMapper();
